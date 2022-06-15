@@ -1,8 +1,8 @@
-function route(pathname, handle, response) {
+function route(pathname, handle, response, postData) {
     console.log("A punto de rutear una peticion para " + pathname);
 
     if (typeof handle[pathname] === 'function') {
-        return handle[pathname](response)
+        return handle[pathname](response, postData)
     } else {
         console.log('No se ha encontrado ningún manipulador (handler) para ' + pathname)
 
