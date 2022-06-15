@@ -1,0 +1,27 @@
+{
+  "name": "first-server-with-node",
+  "version": "1.0.0",
+  "description": "Creating more carefully and with more awareness in the steps a server with Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToniBLopez/server-node.js.git"
+  },
+  "keywords": [
+    "node.js",
+    "server"
+  ],
+  "author": "Toni B.Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToniBLopez/server-node.js/issues"
+  },
+  "homepage": "https://github.com/ToniBLopez/server-node.js#readme",
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
